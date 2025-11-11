@@ -1,0 +1,518 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-10-30T07:15:22Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1354561397",
+        "highway": "bus_stop",
+        "name": "silvai mukku"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2651402,
+          8.9599564
+        ]
+      },
+      "id": "node/1354561397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1911012765",
+        "highway": "bus_stop",
+        "local_ref": "Parankunrapuram",
+        "name": "Parankunrapuram"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.456746,
+          8.962921
+        ]
+      },
+      "id": "node/1911012765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1911012775",
+        "highway": "bus_stop",
+        "local_ref": "Karuvantha",
+        "name": "Karuvantha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4924458,
+          8.9644258
+        ]
+      },
+      "id": "node/1911012775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1923296674",
+        "highway": "bus_stop",
+        "local_ref": "Kilapavoor Bank Stop",
+        "name": "Kilapavoor Bank Stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3931488,
+          8.9209963
+        ]
+      },
+      "id": "node/1923296674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1923296919",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "Kilapavoor mani theater Stop",
+        "name": "Mani Theater stop",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3955467,
+          8.9258718
+        ]
+      },
+      "id": "node/1923296919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1923296958",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "School stop",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.394447,
+          8.9233122
+        ]
+      },
+      "id": "node/1923296958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1923313633",
+        "highway": "bus_stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4082019,
+          8.9408589
+        ]
+      },
+      "id": "node/1923313633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1923326483",
+        "highway": "bus_stop",
+        "local_ref": "Parankunrtapuram vilakku"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4402913,
+          8.9649479
+        ]
+      },
+      "id": "node/1923326483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1923349177",
+        "highway": "bus_stop",
+        "local_ref": "Pavoorchatram West",
+        "name": "Pavoorchatram Railaway Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3766371,
+          8.9177795
+        ]
+      },
+      "id": "node/1923349177"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1923349659",
+        "highway": "bus_stop",
+        "local_ref": "Gurusamy puram",
+        "name": "Pavoorchatram - Gurusamy puram"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3731342,
+          8.9188076
+        ]
+      },
+      "id": "node/1923349659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1923349747",
+        "highway": "bus_stop",
+        "local_ref": "Pavoorchatram - Priya Hospital",
+        "name": "PriyaHospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.370865,
+          8.9196025
+        ]
+      },
+      "id": "node/1923349747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1923350178",
+        "highway": "bus_stop",
+        "local_ref": "Pavoorchatram - KTC Nagar",
+        "name": "KTC Nagar - Pavoorchatram"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.361665,
+          8.9238209
+        ]
+      },
+      "id": "node/1923350178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1923351782",
+        "highway": "bus_stop",
+        "local_ref": "Ramachandra pattanam",
+        "name": "Ramachandra pattanam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3532858,
+          8.9273557
+        ]
+      },
+      "id": "node/1923351782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1923359148",
+        "highway": "bus_stop",
+        "local_ref": "Melamengnapuram",
+        "name": "Melamengnapuram"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3443433,
+          8.9340753
+        ]
+      },
+      "id": "node/1923359148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1923367659",
+        "highway": "bus_stop",
+        "local_ref": "Salaiputhur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.422224,
+          8.8919114
+        ]
+      },
+      "id": "node/1923367659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1923368528",
+        "highway": "bus_stop",
+        "local_ref": "MakiZh",
+        "name": "makizhvannanathapuram"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4091637,
+          8.8954591
+        ]
+      },
+      "id": "node/1923368528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2047655140",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "kalingapatti vilakku",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4422951,
+          8.9544258
+        ]
+      },
+      "id": "node/2047655140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4819728326",
+        "highway": "bus_stop",
+        "name:en": "Pudupatti bustop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5050688,
+          8.8350008
+        ]
+      },
+      "id": "node/4819728326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7880517208",
+        "highway": "bus_stop",
+        "name": "South Bus stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4481336,
+          8.9344449
+        ]
+      },
+      "id": "node/7880517208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7880531175",
+        "highway": "bus_stop",
+        "name": "North Bus stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4487823,
+          8.9374884
+        ]
+      },
+      "id": "node/7880531175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7881100628",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "anna nagar",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4450597,
+          8.946514
+        ]
+      },
+      "id": "node/7881100628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9743030723",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "survey:date": "2022-05-14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4332341,
+          8.776845
+        ]
+      },
+      "id": "node/9743030723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9743030724",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "survey:date": "2022-05-14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.433114,
+          8.7768306
+        ]
+      },
+      "id": "node/9743030724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9743030822",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "survey:date": "2022-05-14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2227222,
+          8.99033
+        ]
+      },
+      "id": "node/9743030822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9743030928",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "survey:date": "2022-05-14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2194386,
+          8.9927812
+        ]
+      },
+      "id": "node/9743030928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9743030929",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "survey:date": "2022-05-14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2069581,
+          8.9976715
+        ]
+      },
+      "id": "node/9743030929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9743031220",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "survey:date": "2022-05-14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4428264,
+          8.7675793
+        ]
+      },
+      "id": "node/9743031220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13265026968",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kadayanallur Hoapital Bus Stop",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3478504,
+          9.0840795
+        ]
+      },
+      "id": "node/13265026968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13265026969",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kadayanallur Hosptal Bus stop",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3476876,
+          9.0841091
+        ]
+      },
+      "id": "node/13265026969"
+    }
+  ]
+}

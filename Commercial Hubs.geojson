@@ -1,0 +1,864 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-10-30T08:38:30Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/320485497",
+        "addr:city": "Pavoorchatram",
+        "building": "yes",
+        "name": "MRF Tyre Showroom",
+        "operator": "MRF Exclusive",
+        "shop": "car_parts",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3900244,
+          8.9122329
+        ]
+      },
+      "id": "way/320485497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/979029213",
+        "name": "Bombay Stores",
+        "shop": "clothes",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3085186,
+          8.9564249
+        ]
+      },
+      "id": "node/979029213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1050483150",
+        "fixme": "Boundaries of office space",
+        "landuse": "commercial",
+        "name": "Zoho Corporation",
+        "office": "it",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.335785,
+          8.9024173
+        ]
+      },
+      "id": "way/1050483150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1050499780",
+        "landuse": "commercial",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3377615,
+          8.8967685
+        ]
+      },
+      "id": "way/1050499780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1050499782",
+        "landuse": "commercial",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3362468,
+          8.8969765
+        ]
+      },
+      "id": "way/1050499782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1891050720",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3817532,
+          8.9169727
+        ]
+      },
+      "id": "node/1891050720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1891058749",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3818444,
+          8.9167475
+        ]
+      },
+      "id": "node/1891058749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1891058751",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3808198,
+          8.9161116
+        ]
+      },
+      "id": "node/1891058751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1891058754",
+        "check_date": "2024-04-11",
+        "name": "Rajas Jewellery",
+        "shop": "jewelry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3815628,
+          8.9159605
+        ]
+      },
+      "id": "node/1891058754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1891058756",
+        "shop": "car_repair"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3897274,
+          8.9122269
+        ]
+      },
+      "id": "node/1891058756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1891058759",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3809083,
+          8.9160533
+        ]
+      },
+      "id": "node/1891058759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1891062150",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.380683,
+          8.9169303
+        ]
+      },
+      "id": "node/1891062150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1891062151",
+        "shop": "bicycle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3787089,
+          8.9173384
+        ]
+      },
+      "id": "node/1891062151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1891062153",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3804926,
+          8.9165408
+        ]
+      },
+      "id": "node/1891062153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1985527620",
+        "amenity": "marketplace"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3799622,
+          8.9165321
+        ]
+      },
+      "id": "node/1985527620"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1985527622",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3812014,
+          8.9158167
+        ]
+      },
+      "id": "node/1985527622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1985527623",
+        "check_date": "2024-04-11",
+        "name:ta": "ஶ்ரீ அம்பிகா ஜவுளி & ரெடிமேட்ஸ்",
+        "shop": "clothes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.381078,
+          8.9158644
+        ]
+      },
+      "id": "node/1985527623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1985527626",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3806435,
+          8.9161399
+        ]
+      },
+      "id": "node/1985527626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1985527629",
+        "shop": "bakery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3809654,
+          8.915981
+        ]
+      },
+      "id": "node/1985527629"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2085416980",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3850065,
+          8.9179504
+        ]
+      },
+      "id": "node/2085416980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2085416981",
+        "shop": "clothes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3806775,
+          8.915865
+        ]
+      },
+      "id": "node/2085416981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2085416982",
+        "shop": "greengrocer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3849395,
+          8.917908
+        ]
+      },
+      "id": "node/2085416982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2085416986",
+        "shop": "clothes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3803958,
+          8.9163102
+        ]
+      },
+      "id": "node/2085416986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2085416990",
+        "name": "Marriappan Saloon",
+        "shop": "hairdresser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3857522,
+          8.9183135
+        ]
+      },
+      "id": "node/2085416990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2085416992",
+        "shop": "hairdresser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3806211,
+          8.916917
+        ]
+      },
+      "id": "node/2085416992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2085416994",
+        "shop": "bicycle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3848429,
+          8.9179054
+        ]
+      },
+      "id": "node/2085416994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2085421271",
+        "shop": "clothes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3822358,
+          8.9168693
+        ]
+      },
+      "id": "node/2085421271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2271599256",
+        "shop": "jewelry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3806123,
+          8.9164451
+        ]
+      },
+      "id": "node/2271599256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2271599257",
+        "shop": "greengrocer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3806552,
+          8.9162066
+        ]
+      },
+      "id": "node/2271599257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2271599259",
+        "check_date": "2024-04-11",
+        "name:ta": "மணி சூப்பர் ஸ்டோர்",
+        "shop": "department_store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3797862,
+          8.9168611
+        ]
+      },
+      "id": "node/2271599259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2271599267",
+        "shop": "department_store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3796762,
+          8.9164106
+        ]
+      },
+      "id": "node/2271599267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2436260048",
+        "addr:city": "Sankarankoil",
+        "addr:postcode": "627756",
+        "addr:street": "Thiruvengadam Salai",
+        "name": "Sri Ganapathy Silks",
+        "shop": "clothes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5534247,
+          9.3052825
+        ]
+      },
+      "id": "node/2436260048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2436264204",
+        "name": "SRL Jewellery Mart",
+        "shop": "jewelry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5478856,
+          9.3044242
+        ]
+      },
+      "id": "node/2436264204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2436266101",
+        "name": "Uma Sankar Jewellers",
+        "shop": "jewelry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5475863,
+          9.3048376
+        ]
+      },
+      "id": "node/2436266101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4951079118",
+        "description": "Has many saplings",
+        "shop": "garden_centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2793876,
+          8.9315757
+        ]
+      },
+      "id": "node/4951079118"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5038250844",
+        "name": "Thirumallakam paarai",
+        "shop": "religion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.352918,
+          9.4123566
+        ]
+      },
+      "id": "node/5038250844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5792413675",
+        "name": "Popular Medical",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3193686,
+          8.9548316
+        ]
+      },
+      "id": "node/5792413675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5792414541",
+        "name": "Hatsun Daily",
+        "shop": "dairy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3193051,
+          8.9552894
+        ]
+      },
+      "id": "node/5792414541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6105562630",
+        "addr:street": "Avudayanoor road",
+        "amenity": "marketplace",
+        "name": "kamarajar market",
+        "organic": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3937227,
+          8.9080746
+        ]
+      },
+      "id": "node/6105562630"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7600392543",
+        "brand": "Jockey",
+        "brand:wikidata": "Q534235",
+        "brand:wikipedia": "en:Jockey International",
+        "clothes": "women;children",
+        "name": "Jockey",
+        "operator:type": "private",
+        "shop": "clothes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3018401,
+          8.9708667
+        ]
+      },
+      "id": "node/7600392543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7853708063",
+        "addr:city": "Sankarankoil",
+        "addr:housenumber": "75",
+        "addr:postcode": "627756",
+        "addr:street": "Rajapalayam - Sankarankoil - Tirunelveli Road",
+        "description": "A Pure 916 Hallmark Gold & Silver Jewelry store, owned by R.Sankarasubbu.  Conatct Number :",
+        "name": "Seethalakshmi Jewellers & Silvers",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "operator": "Sankarasubbu Ramakrishnan",
+        "payment:american_express": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa_debit": "yes",
+        "payment:visa_electron": "yes",
+        "shop": "jewelry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.535376,
+          9.1724558
+        ]
+      },
+      "id": "node/7853708063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7880515196",
+        "name": "Iraivan snacks",
+        "shop": "tea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4500772,
+          8.9356147
+        ]
+      },
+      "id": "node/7880515196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7880530973",
+        "name": "Kumar grocery shop",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4498471,
+          8.9356329
+        ]
+      },
+      "id": "node/7880530973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8900972456",
+        "description": "This shop opened recently by N Shop என் கடை.",
+        "name": "N Shop என் கடை",
+        "shop": "yes",
+        "start_date": "2021-04-21"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3090482,
+          8.9633549
+        ]
+      },
+      "id": "node/8900972456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9980127536",
+        "addr:city": "Kadayanallur",
+        "addr:housenumber": "445/9",
+        "addr:postcode": "627751",
+        "addr:street": "Mohideen Pallivasal complex, main road",
+        "description": "A to Z Tours and Travels & online services, a one step destination for all your travel needs, from Passport services to Visa Process. Also cover covid Test related services from government approved labs, forex need from world reputed service providers.",
+        "email": "a2zkdnl@gmail.com",
+        "image": "https://i0.wp.com/a2zeservice.weebly.com/uploads/7/9/6/3/7963080/untitled-design_orig.png",
+        "name": "A to Z Tours and Travels",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "operator": "A to Z Online services and Travels",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+91-8973109844",
+        "shop": "travel_agency",
+        "website": "https://travelsatoz.in"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3475362,
+          9.0855223
+        ]
+      },
+      "id": "node/9980127536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9982033000",
+        "name": "Balaji pharmacy",
+        "shop": "chemist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2736848,
+          8.9335269
+        ]
+      },
+      "id": "node/9982033000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12869999963",
+        "addr:city": "Alangulam",
+        "addr:district": "Tirunelveli",
+        "addr:housenumber": "Swammai Sannathi St",
+        "addr:postcode": "627853",
+        "addr:street": "Nallur road",
+        "clothes": "women",
+        "name": "N.T.Theysinghrajan Textiles",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "operator": "N.T.Theysinghrajan",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+919600201201",
+        "shop": "clothes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5173164,
+          8.8709054
+        ]
+      },
+      "id": "node/12869999963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13265596131",
+        "name": "National Tea stall / National Sweets",
+        "shop": "tea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3466107,
+          9.0805161
+        ]
+      },
+      "id": "node/13265596131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13266536221",
+        "brand": "Ration Shop",
+        "brand:wikidata": "Q60901",
+        "name": "Ration Shop",
+        "operator": "Public Distribution System",
+        "operator:type": "public",
+        "operator:wikidata": "Q60901",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3457449,
+          9.0820972
+        ]
+      },
+      "id": "node/13266536221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13266536222",
+        "brand": "Ration Shop",
+        "brand:wikidata": "Q60901",
+        "name": "Ration Shop",
+        "operator": "Public Distribution System",
+        "operator:type": "public",
+        "operator:wikidata": "Q60901",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3457091,
+          9.0821009
+        ]
+      },
+      "id": "node/13266536222"
+    }
+  ]
+}
