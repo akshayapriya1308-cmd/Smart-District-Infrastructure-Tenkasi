@@ -1,0 +1,843 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-10-30T07:26:43Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/96175761",
+        "amenity": "school"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.3087723,
+              9.0018535
+            ],
+            [
+              77.3088893,
+              9.0011268
+            ],
+            [
+              77.3094662,
+              9.0003176
+            ],
+            [
+              77.3108206,
+              9.0002763
+            ],
+            [
+              77.3108206,
+              9.001325
+            ],
+            [
+              77.3110631,
+              9.001647
+            ],
+            [
+              77.3111132,
+              9.0019195
+            ],
+            [
+              77.311364,
+              9.002927
+            ],
+            [
+              77.3099511,
+              9.0029022
+            ],
+            [
+              77.3099595,
+              9.0018865
+            ],
+            [
+              77.3087723,
+              9.0018535
+            ]
+          ]
+        ]
+      },
+      "id": "way/96175761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/178605800",
+        "amenity": "college",
+        "name": "MSPVL Politechnic college"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4030965,
+              8.8993075
+            ],
+            [
+              77.4021041,
+              8.9005264
+            ],
+            [
+              77.4011066,
+              8.9023133
+            ],
+            [
+              77.400366,
+              8.9035526
+            ],
+            [
+              77.4000603,
+              8.90333
+            ],
+            [
+              77.3996365,
+              8.9029802
+            ],
+            [
+              77.3994919,
+              8.9024193
+            ],
+            [
+              77.3991647,
+              8.9012533
+            ],
+            [
+              77.3986658,
+              8.8998488
+            ],
+            [
+              77.3990786,
+              8.8996732
+            ],
+            [
+              77.399218,
+              8.9001872
+            ],
+            [
+              77.3994651,
+              8.9001138
+            ],
+            [
+              77.3994809,
+              8.9002508
+            ],
+            [
+              77.3997062,
+              8.9001766
+            ],
+            [
+              77.3996582,
+              8.900082
+            ],
+            [
+              77.4001675,
+              8.8999381
+            ],
+            [
+              77.3998135,
+              8.898645
+            ],
+            [
+              77.4016377,
+              8.8980681
+            ],
+            [
+              77.402662,
+              8.8987563
+            ],
+            [
+              77.4030965,
+              8.8993075
+            ]
+          ]
+        ]
+      },
+      "id": "way/178605800"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/178618866",
+        "addr:postcode": "627808",
+        "amenity": "school",
+        "check_date": "2024-04-11",
+        "name": "T P S Goverment Higher Secondary School",
+        "name:ta": "த.பி. சொக்கலால் அரசு மேல்நிலைப்பள்ளி",
+        "operator:type": "government"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.3854021,
+              8.9134919
+            ],
+            [
+              77.3848576,
+              8.9137172
+            ],
+            [
+              77.3847617,
+              8.9134892
+            ],
+            [
+              77.3844399,
+              8.913521
+            ],
+            [
+              77.3840878,
+              8.9122412
+            ],
+            [
+              77.3840852,
+              8.9120663
+            ],
+            [
+              77.384179,
+              8.9120345
+            ],
+            [
+              77.384171,
+              8.9119047
+            ],
+            [
+              77.3856737,
+              8.9114673
+            ],
+            [
+              77.3860994,
+              8.9126864
+            ],
+            [
+              77.3862657,
+              8.9131183
+            ],
+            [
+              77.3854021,
+              8.9134919
+            ]
+          ]
+        ]
+      },
+      "id": "way/178618866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/180381904",
+        "amenity": "school",
+        "name": "St. Michael's Girls Higher Secondary School"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.3215896,
+              8.9527786
+            ],
+            [
+              77.3215574,
+              8.9522434
+            ],
+            [
+              77.3222494,
+              8.9522752
+            ],
+            [
+              77.3224372,
+              8.9523706
+            ],
+            [
+              77.3223996,
+              8.9527362
+            ],
+            [
+              77.3215896,
+              8.9527786
+            ]
+          ]
+        ]
+      },
+      "id": "way/180381904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/197881393",
+        "amenity": "school",
+        "name": "Hindu Middle school"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.3582072,
+              8.904888
+            ],
+            [
+              77.3583171,
+              8.9048324
+            ],
+            [
+              77.3583549,
+              8.904939
+            ],
+            [
+              77.3582527,
+              8.9049834
+            ],
+            [
+              77.3582072,
+              8.904888
+            ]
+          ]
+        ]
+      },
+      "id": "way/197881393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/197881394",
+        "amenity": "school",
+        "name": "Hindu Middle school"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.3582608,
+              8.90479
+            ],
+            [
+              77.3582477,
+              8.9047562
+            ],
+            [
+              77.3582959,
+              8.9047297
+            ],
+            [
+              77.3583172,
+              8.9047796
+            ],
+            [
+              77.3582608,
+              8.90479
+            ]
+          ]
+        ]
+      },
+      "id": "way/197881394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/197881395",
+        "amenity": "school",
+        "name": "Hindu Middle School"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.3587329,
+              8.9045409
+            ],
+            [
+              77.3586878,
+              8.9044826
+            ],
+            [
+              77.3589501,
+              8.9043634
+            ],
+            [
+              77.3589769,
+              8.9044296
+            ],
+            [
+              77.3589394,
+              8.904472
+            ],
+            [
+              77.3589474,
+              8.9045515
+            ],
+            [
+              77.3588753,
+              8.9045787
+            ],
+            [
+              77.3588482,
+              8.9045223
+            ],
+            [
+              77.3587329,
+              8.9045409
+            ]
+          ]
+        ]
+      },
+      "id": "way/197881395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/203436904",
+        "amenity": "school",
+        "check_date": "2024-04-11",
+        "name": "Avvaiyar Goverment Higher Secondary School for Girls",
+        "name:ta": "ஒளவையார் அரசு மகளிர் மேல்நிலைப்பள்ளி",
+        "operator:type": "government"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.3783184,
+              8.9161049
+            ],
+            [
+              77.3783184,
+              8.9160386
+            ],
+            [
+              77.378592,
+              8.9160121
+            ],
+            [
+              77.3786778,
+              8.9161817
+            ],
+            [
+              77.3790022,
+              8.9160943
+            ],
+            [
+              77.3791819,
+              8.9164414
+            ],
+            [
+              77.3790264,
+              8.9165527
+            ],
+            [
+              77.3791739,
+              8.9169608
+            ],
+            [
+              77.378787,
+              8.9170583
+            ],
+            [
+              77.3785839,
+              8.9165898
+            ],
+            [
+              77.3784598,
+              8.9166396
+            ],
+            [
+              77.3783184,
+              8.9161049
+            ]
+          ]
+        ]
+      },
+      "id": "way/203436904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1056101996",
+        "amenity": "school",
+        "name": "Hindu Middle School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.312383,
+          9.0115007
+        ]
+      },
+      "id": "node/1056101996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1548773836",
+        "amenity": "school",
+        "email": "office@mkvkschool.com",
+        "name": "MKVK Matric School",
+        "school:gender": "mixed",
+        "website": "https://mkvkschool.in/portal/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3053079,
+          8.9664612
+        ]
+      },
+      "id": "node/1548773836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1548773845",
+        "amenity": "school",
+        "name": "ICI Boys Hr. Sec. School",
+        "school:gender": "male"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3043316,
+          8.9695033
+        ]
+      },
+      "id": "node/1548773845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1548790274",
+        "amenity": "school",
+        "name": "Hilton Matric Hr. Sec. School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3088165,
+          8.9123452
+        ]
+      },
+      "id": "node/1548790274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2080771933",
+        "amenity": "kindergarten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3604843,
+          8.9042786
+        ]
+      },
+      "id": "node/2080771933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5877920281",
+        "amenity": "kindergarten",
+        "name": "Jesus Loves Primary & Nursary School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.492658,
+          8.865002
+        ]
+      },
+      "id": "node/5877920281"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7880244744",
+        "amenity": "school",
+        "check_date": "2024-04-11",
+        "name": "Panchayat Union Primary School",
+        "name:ta": "ஊராட்சி ஒன்றிய தொடக்கப்பள்ளி",
+        "opening_hours": "Mo-Fr 09:00-16:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4492088,
+          8.9381078
+        ]
+      },
+      "id": "node/7880244744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7880477148",
+        "amenity": "library",
+        "name": "Library"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4506573,
+          8.9390139
+        ]
+      },
+      "id": "node/7880477148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7880521711",
+        "amenity": "school",
+        "check_date": "2024-04-11",
+        "name": "Anna Boys Higher Secondary School",
+        "name:ta": "அண்ணா ஆண்கள் மேல்நிலைப்பள்ளி"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4482418,
+          8.9396157
+        ]
+      },
+      "id": "node/7880521711"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7880527994",
+        "addr:street": "high school street",
+        "amenity": "school",
+        "check_date": "2024-04-11",
+        "name": "Government Higher Secondary School",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "operator:type": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4496245,
+          8.9358397
+        ]
+      },
+      "id": "node/7880527994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7880532624",
+        "addr:street": "Krishnan Kovil street",
+        "amenity": "school",
+        "name": "Anna middle school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4490163,
+          8.9348825
+        ]
+      },
+      "id": "node/7880532624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7880532895",
+        "amenity": "school",
+        "check_date": "2024-04-11",
+        "name": "St. Antony's Girls Higher Secondary School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4486468,
+          8.938262
+        ]
+      },
+      "id": "node/7880532895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7881100630",
+        "amenity": "school",
+        "name": "sri jeyendra higher secondary school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4389603,
+          8.9621197
+        ]
+      },
+      "id": "node/7881100630"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7881100631",
+        "amenity": "school",
+        "name": "Baren bruk higher secondary school ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4329193,
+          8.9670801
+        ]
+      },
+      "id": "node/7881100631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9743027924",
+        "amenity": "school",
+        "check_date": "2024-04-11",
+        "name": "Government Primary School",
+        "operator:type": "government",
+        "survey:date": "2022-05-14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2541121,
+          8.9757846
+        ]
+      },
+      "id": "node/9743027924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11809924746",
+        "amenity": "school",
+        "check_date": "2024-04-11",
+        "name": "Pulari Matriculation School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.207358,
+          8.9978844
+        ]
+      },
+      "id": "node/11809924746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11809924749",
+        "amenity": "school",
+        "check_date": "2024-04-11",
+        "name": "Veera Vanchinathan Government Middle School",
+        "name:ta": "சுதந்திர போராட்ட வீரர் வாஞ்சிநாதன் அரசு நடுநிலைப்பள்ளி",
+        "operator:type": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2534429,
+          8.9764398
+        ]
+      },
+      "id": "node/11809924749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11809924752",
+        "amenity": "school",
+        "check_date": "2024-04-11",
+        "name:ta": "ஶ்ரீமூலம் சஷ்டியப்தபூர்த்தி சட்டநாத கரையாளர் அரசு ஆண்கள் மேல்நிலைப் பள்ளி",
+        "operator:type": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.248659,
+          8.9762829
+        ]
+      },
+      "id": "node/11809924752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11809940538",
+        "amenity": "school",
+        "check_date": "2024-04-11",
+        "name": "Government Higher Secondary School",
+        "name:ta": "அரசு மேல்நிலைப்பள்ளி"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5007395,
+          8.864376
+        ]
+      },
+      "id": "node/11809940538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11809950175",
+        "amenity": "school",
+        "check_date": "2024-04-11",
+        "name": "M.K.V.K. Nursery And Primary School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.378022,
+          8.9172006
+        ]
+      },
+      "id": "node/11809950175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11809950179",
+        "amenity": "school",
+        "check_date": "2024-04-11",
+        "name": "Nadar Hindu High School",
+        "name:ta": "நாடார் இந்து உயர்நிலைப்பள்ளி"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3965755,
+          8.9209133
+        ]
+      },
+      "id": "node/11809950179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13265046177",
+        "amenity": "school",
+        "education": "school",
+        "name": "Pettai Muslim Higher Secondary School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3453206,
+          9.0820265
+        ]
+      },
+      "id": "node/13265046177"
+    }
+  ]
+}

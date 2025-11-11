@@ -1,0 +1,233 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-10-30T07:18:29Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/353052107",
+        "internet_access": "no",
+        "name": "Kadayanallur",
+        "network": "IR",
+        "operator": "SR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "KDNL",
+        "wikidata": "Q31298143"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3629798,
+          9.0856852
+        ]
+      },
+      "id": "node/353052107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1114694294",
+        "IR:zone": "SR:MDU",
+        "gauge": "1676",
+        "name": "Tenkasi Junction",
+        "name:ml": "തെങ്കാശി ജംഗ്ഷൻ",
+        "name:ta": "தென்காசி",
+        "network": "IR",
+        "operator": "SR",
+        "platforms": "4",
+        "railway": "station",
+        "ref": "TSI",
+        "survey:date": "2025-05-22",
+        "usage": "branch",
+        "website": "https://sr.indianrailways.gov.in/",
+        "wikidata": "Q24943235",
+        "wikipedia": "en:Tenkasi Junction railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3062335,
+          8.9644856
+        ]
+      },
+      "id": "node/1114694294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1923413218",
+        "internet_access": "no",
+        "name": "Mettur",
+        "name:ml": "മേട്ടൂർ",
+        "name:ta": "மேட்டூர்",
+        "network": "IR",
+        "operator": "SR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "MTE",
+        "wikidata": "Q87931981"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3700455,
+          8.8735345
+        ]
+      },
+      "id": "node/1923413218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2085407352",
+        "gauge": "1676",
+        "internet_access": "no",
+        "name": "Pavurchutram",
+        "network": "IR",
+        "operator": "SR",
+        "platforms": "2",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "PCM",
+        "usage": "branch",
+        "wikidata": "Q87931796"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3759299,
+          8.9150913
+        ]
+      },
+      "id": "node/2085407352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5338756428",
+        "air_conditioning": "no",
+        "internet_access": "no",
+        "name": "Sankarankovil",
+        "name:ml": "ശങ്കരൻകോവിൽ",
+        "name:ta": "சங்கரன்கோவில்",
+        "network": "IR",
+        "operator": "SR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "SNKL",
+        "survey:date": "2025-05-21",
+        "wheelchair": "yes",
+        "wikidata": "Q63371883"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5267348,
+          9.1764187
+        ]
+      },
+      "id": "node/5338756428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5338934710",
+        "air_conditioning": "no",
+        "internet_access": "no",
+        "name": "Pambakovil Shandy",
+        "network": "IR",
+        "operator": "SR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "PBKS",
+        "survey:date": "2025-05-21",
+        "wheelchair": "yes",
+        "wikidata": "Q63371882"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4306436,
+          9.130512
+        ]
+      },
+      "id": "node/5338934710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5338935516",
+        "internet_access": "no",
+        "name": "Sengottai",
+        "name:hi": "शेंगोट्टै",
+        "name:ml": "ചെങ്കോട്ട",
+        "name:ta": "செங்கோட்டை",
+        "network": "IR",
+        "operator": "SR",
+        "railway": "station",
+        "ref": "SCT",
+        "wikidata": "Q24943331",
+        "wikipedia": "en:Sengottai railway station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.242167,
+          8.9872613
+        ]
+      },
+      "id": "node/5338935516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5338935518",
+        "internet_access": "no",
+        "name": "Bhagavathipuram",
+        "name:ml": "ഭഗവതിപുരം",
+        "name:ta": "பகவதிபுரம்",
+        "network": "IR",
+        "operator": "SR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "BJM",
+        "wikidata": "Q64072766"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1967732,
+          9.0168799
+        ]
+      },
+      "id": "node/5338935518"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5351690490",
+        "internet_access": "no",
+        "name": "Kizhapuliyur",
+        "name:ml": "കീഴപ്പുലിയൂർ",
+        "name:ta": "கீழப்புலியூர்",
+        "network": "IR",
+        "operator": "SR",
+        "public_transport": "station",
+        "railway": "station",
+        "ref": "KYZ",
+        "wikidata": "Q87931634"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3229085,
+          8.952751
+        ]
+      },
+      "id": "node/5351690490"
+    }
+  ]
+}

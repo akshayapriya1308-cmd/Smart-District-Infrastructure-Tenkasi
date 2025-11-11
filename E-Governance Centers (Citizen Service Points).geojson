@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-10-30T08:58:00Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7880517492",
+        "name": "Government ITI",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.449512,
+          8.9293908
+        ]
+      },
+      "id": "node/7880517492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7880518137",
+        "addr:street": "alangulam surandai main road",
+        "name": "Post office",
+        "office": "government",
+        "opening_hours": "Mo-Fr 10:00-16:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4484967,
+          8.9356179
+        ]
+      },
+      "id": "node/7880518137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7880519316",
+        "government": "administrative",
+        "name": "Collector office",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3054118,
+          8.9639409
+        ]
+      },
+      "id": "node/7880519316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7880531433",
+        "name": "Ration shop",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4493568,
+          8.9390973
+        ]
+      },
+      "id": "node/7880531433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7880533185",
+        "name": "Taluk office",
+        "office": "government",
+        "opening_hours": "Mo-Fr 10:00-17:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4479371,
+          8.9337804
+        ]
+      },
+      "id": "node/7880533185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10255280252",
+        "addr:street": "Five falls Road",
+        "name": "Highway Inspection quarters",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2636967,
+          8.9321698
+        ]
+      },
+      "id": "node/10255280252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13265073906",
+        "government": "public_service",
+        "name": "Kadayanallur Sub Register Office",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3474927,
+          9.0837104
+        ]
+      },
+      "id": "node/13265073906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13265596133",
+        "government": "public_service",
+        "name": "Kadayanallur Municipal Office",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3465187,
+          9.0816434
+        ]
+      },
+      "id": "node/13265596133"
+    }
+  ]
+}

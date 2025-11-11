@@ -1,0 +1,124 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-10-30T07:21:33Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1294485266",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2382721,
+              8.9322072
+            ],
+            [
+              77.23791,
+              8.9320059
+            ],
+            [
+              77.2380522,
+              8.9318124
+            ],
+            [
+              77.2384407,
+              8.9316539
+            ],
+            [
+              77.2385614,
+              8.9318262
+            ],
+            [
+              77.2382721,
+              8.9322072
+            ]
+          ]
+        ]
+      },
+      "id": "way/1294485266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/979027804",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2701981,
+          8.930537
+        ]
+      },
+      "id": "node/979027804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1113381968",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2695373,
+          8.93235
+        ]
+      },
+      "id": "node/1113381968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1891062155",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3816674,
+          8.9158095
+        ]
+      },
+      "id": "node/1891062155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2085407474",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3760533,
+          8.9149085
+        ]
+      },
+      "id": "node/2085407474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7600413986",
+        "amenity": "parking",
+        "operator": "bustand parking",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.300817,
+          8.9716949
+        ]
+      },
+      "id": "node/7600413986"
+    }
+  ]
+}

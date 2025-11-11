@@ -1,0 +1,344 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-10-30T07:36:52Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158771528",
+        "landuse": "industrial",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.381336,
+          8.9772252
+        ]
+      },
+      "id": "way/158771528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/906386121",
+        "landuse": "industrial",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5498027,
+          9.304046
+        ]
+      },
+      "id": "way/906386121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/906807474",
+        "landuse": "industrial",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8281891,
+          9.1988627
+        ]
+      },
+      "id": "way/906807474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/986279190",
+        "barrier": "wall",
+        "description": "974000",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5865669,
+          8.8424036
+        ]
+      },
+      "id": "way/986279190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/986279200",
+        "barrier": "wall",
+        "description": "78770",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "source": "http://www.sbenergy.co.in/on-gridoff-grid",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5565859,
+          9.2472172
+        ]
+      },
+      "id": "way/986279200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/986403902",
+        "barrier": "wall",
+        "description": "243320",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5184556,
+          8.7888271
+        ]
+      },
+      "id": "way/986403902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/986403904",
+        "barrier": "wall",
+        "description": "16710",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5517244,
+          9.0558507
+        ]
+      },
+      "id": "way/986403904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/986403905",
+        "barrier": "wall",
+        "description": "108080",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5546602,
+          9.0525777
+        ]
+      },
+      "id": "way/986403905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1003158312",
+        "description": "9370",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.6565875,
+          9.2793738
+        ]
+      },
+      "id": "way/1003158312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1003158313",
+        "description": "11860",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7666177,
+          9.2321747
+        ]
+      },
+      "id": "way/1003158313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1260732913",
+        "barrier": "wall",
+        "description": "546810",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5648805,
+          8.8937942
+        ]
+      },
+      "id": "way/1260732913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1260732914",
+        "barrier": "wall",
+        "description": "299710",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5476881,
+          8.9050703
+        ]
+      },
+      "id": "way/1260732914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1268329078",
+        "description": "32320",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.6741901,
+          8.9269186
+        ]
+      },
+      "id": "way/1268329078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1268329098",
+        "description": "328730",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.6615084,
+          8.9378507
+        ]
+      },
+      "id": "way/1268329098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1268333164",
+        "description": "26880",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5499593,
+          9.3523762
+        ]
+      },
+      "id": "way/1268333164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1395423211",
+        "landuse": "industrial",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4058512,
+          9.2706031
+        ]
+      },
+      "id": "way/1395423211"
+    }
+  ]
+}

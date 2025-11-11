@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-10-30T09:01:06Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1909667210",
+        "amenity": "police",
+        "name": "Railway police station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3063031,
+          8.9645513
+        ]
+      },
+      "id": "node/1909667210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1918541999",
+        "amenity": "police",
+        "name": "Police Stations"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4192932,
+          8.9724199
+        ]
+      },
+      "id": "node/1918541999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1918542001",
+        "amenity": "fire_station",
+        "name": "Surandai Fire Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4201945,
+          8.9708303
+        ]
+      },
+      "id": "node/1918542001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7880514352",
+        "addr:street": "main road",
+        "amenity": "police",
+        "name": "Police station",
+        "phone": "100"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4491522,
+          8.9387509
+        ]
+      },
+      "id": "node/7880514352"
+    }
+  ]
+}

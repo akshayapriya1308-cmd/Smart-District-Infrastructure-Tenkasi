@@ -1,0 +1,306 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-10-30T08:41:30Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5781505845",
+        "addr:city": "Tenkasi",
+        "addr:country": "IN",
+        "addr:housenumber": "158 S.M Complex",
+        "addr:postcode": "627811",
+        "addr:street": "Railway Road",
+        "contact:email": "contact@buyp.in",
+        "contact:facebook": "https://www.facebook.com/buyp",
+        "contact:fax": "+914633281212",
+        "contact:instagram": "https://www.instagram.com/buyptech/",
+        "contact:phone": "+919789125305",
+        "contact:twitter": "https://twitter.com/srsofttechin",
+        "contact:website": "https://www.buyp.in/",
+        "email": "contact@buyp.in",
+        "name": "Buyp Technologies",
+        "office": "it",
+        "opening_hours": "09:00-21:00",
+        "phone": "+919047281212",
+        "website": "https://buyp.in/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3030247,
+          8.9685961
+        ]
+      },
+      "id": "node/5781505845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7880517492",
+        "name": "Government ITI",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.449512,
+          8.9293908
+        ]
+      },
+      "id": "node/7880517492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7880518137",
+        "addr:street": "alangulam surandai main road",
+        "name": "Post office",
+        "office": "government",
+        "opening_hours": "Mo-Fr 10:00-16:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4484967,
+          8.9356179
+        ]
+      },
+      "id": "node/7880518137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7880519316",
+        "government": "administrative",
+        "name": "Collector office",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3054118,
+          8.9639409
+        ]
+      },
+      "id": "node/7880519316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7880530783",
+        "name": "Matha milk company",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4394907,
+          8.9356648
+        ]
+      },
+      "id": "node/7880530783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7880531433",
+        "name": "Ration shop",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4493568,
+          8.9390973
+        ]
+      },
+      "id": "node/7880531433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7880533185",
+        "name": "Taluk office",
+        "office": "government",
+        "opening_hours": "Mo-Fr 10:00-17:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4479371,
+          8.9337804
+        ]
+      },
+      "id": "node/7880533185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7904338049",
+        "addr:city": "Sankarankovil",
+        "addr:postcode": "627756",
+        "addr:street": "Thiruvudaiyan Salai",
+        "name": "Madhura Buiders & Architects",
+        "office": "architect"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5385573,
+          9.1796484
+        ]
+      },
+      "id": "node/7904338049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10255280252",
+        "addr:street": "Five falls Road",
+        "name": "Highway Inspection quarters",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2636967,
+          8.9321698
+        ]
+      },
+      "id": "node/10255280252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13265073906",
+        "government": "public_service",
+        "name": "Kadayanallur Sub Register Office",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3474927,
+          9.0837104
+        ]
+      },
+      "id": "node/13265073906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13265557783",
+        "name": "மசூது தைக்கா மேல்நிலைப் பள்ளி",
+        "office": "educational_institution"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.346733,
+          9.081351
+        ]
+      },
+      "id": "node/13265557783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13265596133",
+        "government": "public_service",
+        "name": "Kadayanallur Municipal Office",
+        "office": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3465187,
+          9.0816434
+        ]
+      },
+      "id": "node/13265596133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13265716173",
+        "name": "Government Girls High School",
+        "office": "educational_institution"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3480325,
+          9.0833867
+        ]
+      },
+      "id": "node/13265716173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13265756712",
+        "name": "Hidhayathul Islam Higher Secondary School",
+        "office": "educational_institution"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3515649,
+          9.0811547
+        ]
+      },
+      "id": "node/13265756712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13265806674",
+        "name": "Pettai Government Middle School",
+        "office": "educational_institution"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3447203,
+          9.0858443
+        ]
+      },
+      "id": "node/13265806674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13265806681",
+        "name": "Puthur new middle school",
+        "office": "educational_institution"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3495502,
+          9.0818126
+        ]
+      },
+      "id": "node/13265806681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13265816244",
+        "name": "GOVT  men HSS SCHOOL",
+        "office": "educational_institution"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3474059,
+          9.0894084
+        ]
+      },
+      "id": "node/13265816244"
+    }
+  ]
+}

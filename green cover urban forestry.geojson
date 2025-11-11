@@ -1,0 +1,121 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-10-30T08:46:41Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/84272307",
+        "natural": "wood",
+        "source": "landsat",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3338792,
+          9.0584359
+        ]
+      },
+      "id": "way/84272307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/96175829",
+        "natural": "wood",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.32624,
+          8.971514
+        ]
+      },
+      "id": "way/96175829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/97678197",
+        "natural": "wood",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5777939,
+          8.9930901
+        ]
+      },
+      "id": "way/97678197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/204084815",
+        "natural": "wood",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5501788,
+          8.8875332
+        ]
+      },
+      "id": "way/204084815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/204346843",
+        "landuse": "forest",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4737761,
+          8.9498954
+        ]
+      },
+      "id": "way/204346843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1198469047",
+        "natural": "wood",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2878462,
+          8.8157372
+        ]
+      },
+      "id": "way/1198469047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1198469088",
+        "natural": "wood",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.1848774,
+          8.966708
+        ]
+      },
+      "id": "way/1198469088"
+    }
+  ]
+}

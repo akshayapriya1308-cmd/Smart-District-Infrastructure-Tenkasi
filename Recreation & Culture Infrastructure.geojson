@@ -1,0 +1,217 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-10-30T07:32:46Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/96175631",
+        "leisure": "park"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2515247,
+              8.9747981
+            ],
+            [
+              77.2516746,
+              8.9754817
+            ],
+            [
+              77.2513131,
+              8.9756254
+            ],
+            [
+              77.2513969,
+              8.9760521
+            ],
+            [
+              77.2503081,
+              8.9763612
+            ],
+            [
+              77.2502155,
+              8.9761348
+            ],
+            [
+              77.2494133,
+              8.9762045
+            ],
+            [
+              77.2494,
+              8.9761261
+            ],
+            [
+              77.2490915,
+              8.9761043
+            ],
+            [
+              77.2490474,
+              8.9753641
+            ],
+            [
+              77.2498849,
+              8.9752466
+            ],
+            [
+              77.2506475,
+              8.9748808
+            ],
+            [
+              77.2512029,
+              8.9747894
+            ],
+            [
+              77.2515247,
+              8.9747981
+            ]
+          ]
+        ]
+      },
+      "id": "way/96175631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1445761282",
+        "leisure": "park",
+        "name": "Kadayanallur Park",
+        "name:ta": "கடையநல்லூர் பூங்கா"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.3464889,
+              9.0809622
+            ],
+            [
+              77.3465669,
+              9.0808054
+            ],
+            [
+              77.3465781,
+              9.080809
+            ],
+            [
+              77.3468873,
+              9.0809603
+            ],
+            [
+              77.3467325,
+              9.0810689
+            ],
+            [
+              77.3464889,
+              9.0809622
+            ]
+          ]
+        ]
+      },
+      "id": "way/1445761282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1354563414",
+        "leisure": "park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2741682,
+          8.9328165
+        ]
+      },
+      "id": "node/1354563414"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1891207176",
+        "amenity": "cinema"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.373764,
+          8.9190036
+        ]
+      },
+      "id": "node/1891207176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1918591956",
+        "amenity": "theatre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4208473,
+          8.9782425
+        ]
+      },
+      "id": "node/1918591956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2436248979",
+        "addr:city": "Sankarankoil",
+        "addr:housename": "Geethalaya",
+        "addr:postcode": "627756",
+        "addr:street": "Geethalaya Theatre Road",
+        "amenity": "cinema",
+        "name": "Geethalaya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5496577,
+          9.3122926
+        ]
+      },
+      "id": "node/2436248979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3521140867",
+        "leisure": "garden",
+        "name": "Nafees"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2105247,
+          9.0696278
+        ]
+      },
+      "id": "node/3521140867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7880533129",
+        "amenity": "theatre",
+        "name": "PSS multiplux"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3070686,
+          8.9616485
+        ]
+      },
+      "id": "node/7880533129"
+    }
+  ]
+}

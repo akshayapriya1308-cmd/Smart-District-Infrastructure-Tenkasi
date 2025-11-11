@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-10-30T07:33:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13265806652",
+        "amenity": "social_centre",
+        "name": "Jalaliya Mahal Kadayanallur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3445917,
+          9.085678
+        ]
+      },
+      "id": "node/13265806652"
+    }
+  ]
+}
