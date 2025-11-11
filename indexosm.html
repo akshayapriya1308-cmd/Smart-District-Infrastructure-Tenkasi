@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tenkasi Smart District GIS Viewer</title>
+
+<!-- Leaflet + FontAwesome -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+<style>
+  html, body { margin:0; height:100%; font-family:'Segoe UI',Arial,sans-serif; }
+  #map { width:100%; height:100vh; }
+
+  /* Sidebar */
+  #sidebar {
+    position:absolute; top:15px; left:15px;
+    background:rgba(255,255,255,0.97);
+    width:280px; max-height:90vh; overflow-y:auto;
+    border-radius:15px; padding:15px;
+    box-shadow:0 4px 16px rgba(0,0,0,0.3);
+    z-index:1000; transition:all 0.3s ease;
+  }
+  #sidebar h3 {
+    text-align:center; color:#2C3E50; font-size:18px;
+    border-bottom:1px solid #ccc; padding-bottom:5px;
+  }
+  .layer-item {
+    display:flex; align-items:center; margin:8px 0; cursor:pointer;
+  }
+  .layer-item i { width:22px; text-align:center; margin-right:8px; font-size:16px; color:#0078D7; }
+  .layer-item label { flex:1; font-size:14px; cursor:pointer; }
+  input[type="checkbox"] {
+    accent-color:#0078D7; transform:scale(1.2); margin-right:6px;
+  }
+
+  /* Buttons */
+  .btn {
+    position:absolute; z-index:1200;
+    background:#2C3E50; color:white;
+    border:none; border-radius:8px;
+    padding:8px 12px; cursor:pointer;
+    box-shadow:0 3px 8px rgba(0,0,0,0.3);
+    transition:background 0.2s;
+  }
+  .btn:hover { background:#1A252F; }
+  #toggleSidebar { top:15px; right:310px; }
+  #legendToggle { bottom:30px; left:20px; }
+
+  /* Legend */
+  .legend {
+    position:absolute; bottom:70px; right:20px;
+    background:rgba(255,255,255,0.97);
+    padding:12px; border-radius:12px;
+    box-shadow:0 3px 8px rgba(0,0,0,0.3);
+    display:none; max-width:240px;
+    font-size:13px; line-height:1.7;
+  }
+  .legend i { width:18px; text-align:center; margin-right:6px; }
+</style>
+</head>
+<body>
+
+<div id="sidebar">
+  <h3><i class="fa-solid fa-layer-group"></i> Smart District Layers</h3>
+  <div id="layerList"></div>
+</div>
+
+<button class="btn" id="toggleSidebar"><i class="fa-solid fa-sliders"></i> Filters</button>
+<button class="btn" id="legendToggle"><i class="fa-solid fa-map"></i> Legend</button>
+<div id="legend" class="legend"></div>
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script>
+const map = L.map('map').setView([8.96, 77.31], 11);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution:'© OpenStreetMap contributors'
+}).addTo(map);
+
+const colorList = ["#0078D7","#E67E22","#16A085","#C0392B","#8E44AD","#2ECC71","#F39C12","#9B59B6"];
+let colorIndex=0;
+const geoLayers={};
+
+const iconMap={
+  "Bus Stops":"fa-bus-simple",
+  "Bus Route":"fa-bus",
+  "Railway Network":"fa-train-subway",
+  "Metro Local Train Stations":"fa-train",
+  "Power Infrastructure":"fa-bolt",
+  "Education Infrastructure":"fa-school",
+  "Disaster Management Assets":"fa-house-chimney-medical",
+  "Public Services & Civic Infrastructure":"fa-landmark",
+  "Waterbodies":"fa-droplet",
+  "Administrative Boundaries":"fa-border-all",
+  "Green Cover Urban Forestry":"fa-tree",
+  "Commercial Hubs":"fa-store",
+  "Industrial Estates Areas":"fa-industry",
+  "Renewable energy sources":"fa-solar-panel",
+  "Road Network":"fa-road",
+  "Drainage Lines":"fa-water",
+  "Recreation & Culture Infrastructure":"fa-person-biking",
+  "Welfare & Community Support Buildings":"fa-hands-helping",
+  "Employment Clusters":"fa-users",
+  "Parking Zones":"fa-square-parking"
+};
+
+async function loadGeoLayer(file,label){
+  try{
+    const response=await fetch(file);
+    const data=await response.json();
+    const color=colorList[colorIndex++%colorList.length];
+
+    const layer=L.geoJSON(data,{
+      style:feature=>({
+        color,
+        weight:feature.geometry.type.includes("Line")?2.5:1.2,
+        fillColor:color,
+        fillOpacity:feature.geometry.type.includes("Polygon")?0.3:0
+      }),
+      pointToLayer:(f,latlng)=>{
+        const icon=L.divIcon({
+          html:`<i class="fa-solid ${iconMap[label]||'fa-location-dot'}" style="color:${color};font-size:18px"></i>`,
+          className:'marker-icon',iconSize:[20,20]
+        });
+        return L.marker(latlng,{icon});
+      },
+      onEachFeature:(f,l)=>{
+        let html=`<b>${label}</b><hr>`;
+        for(const k in f.properties){ html+=`<b>${k}:</b> ${f.properties[k]}<br>`; }
+        l.bindPopup(html);
+      }
+    });
+    geoLayers[label]=layer;
+    addFilter(label,color);
+    addLegend(label,color);
+  }catch(err){ console.error("Error loading",file,err); }
+}
+
+function addFilter(label,color){
+  const list=document.getElementById("layerList");
+  const div=document.createElement("div");
+  div.className="layer-item";
+  div.innerHTML=`
+    <i class="fa-solid ${iconMap[label]||'fa-layer-group'}" style="color:${color}"></i>
+    <input type="checkbox" id="${label}">
+    <label for="${label}">${label}</label>`;
+  list.appendChild(div);
+  div.querySelector("input").addEventListener("change",e=>{
+    if(e.target.checked) geoLayers[label].addTo(map);
+    else map.removeLayer(geoLayers[label]);
+  });
+}
+
+function addLegend(label,color){
+  const legend=document.getElementById("legend");
+  legend.innerHTML+=`<div><i class="fa-solid ${iconMap[label]||'fa-layer-group'}" style="color:${color}"></i> ${label}</div>`;
+}
+
+// UI toggle
+document.getElementById("toggleSidebar").onclick=()=>{
+  const sb=document.getElementById("sidebar");
+  sb.style.left=(sb.style.left==="15px"||sb.style.left==="")?"-300px":"15px";
+};
+document.getElementById("legendToggle").onclick=()=>{
+  const l=document.getElementById("legend");
+  l.style.display=(l.style.display==="block")?"none":"block";
+};
+
+const layers=[
+  "Administrative Boundaries",
+  "Block",
+  "Bus Route",
+  "Bus Stops",
+  "Commercial Hubs",
+  "Contour Lines",
+  "Disaster Management Assets",
+  "Drainage Lines",
+  "Education Infrastructure",
+  "E-Governance Centers (Citizen Service Points)",
+  "Employment Clusters",
+  "green cover urban forestry",
+  "industrial estates areas",
+  "metro local train stations",
+  "Municipality",
+  "Parking Zones",
+  "Power Infrastructure",
+  "Public Services & Civic Infrastructure",
+  "Railway Network",
+  "Recreation & Culture Infrastructure",
+  "Renewable energy sources",
+  "Road Network",
+  "Town Panchayat",
+  "Waterbodies",
+  "Welfare & Community Support Buildings"
+];
+
+layers.forEach(name=>loadGeoLayer(`${name}.geojson`,name));
+</script>
+
+</body>
+</html>
